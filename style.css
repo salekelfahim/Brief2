@@ -1,6 +1,5 @@
 *{
     margin-left: 15px;
-
 }
 .header{
     width: 1248px;
@@ -9,7 +8,7 @@
     justify-content: space-between;
     
     }
-    .header .menu{
+.header .menu{
     width: 624px;
     height: 42px;
     display: flex;
@@ -17,6 +16,9 @@
     align-items: center;
     text-decoration: none;
     }
+.body1{
+    height: 1822px;
+}
 .banner .banner-img{
     width: 1248px;
     height: 646px;
@@ -49,12 +51,104 @@
     width: 193px;
     height: 53px;
     border-radius: 6px;
-    border: 1px solid beige;
-    justify-items: center;
 }
-.banner .subimage .view .view-p{
-    color: aliceblue;
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+.card-top .shop{
+font-size: 33px;
+}
+.card-top .all{
+    margin-right: 50px;
+    color: #A18A68;
     font-size: 20px;
-    font-family: 'DM Sans';
 
 }
+    
+.cards {
+        height: 820px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-right: 110px;
+    }
+    
+    /* Styles for the products */
+.product {
+        background-color: #fff;
+        border-radius: 4px;
+        padding-right: 30px;
+        max-width: 300px;
+    }
+    
+.product img {
+    width: 377px;
+    height: 380px;
+    }
+    
+.product .product-title {
+        font-size: 20px;
+        color: #333;
+    }
+    
+.product .product-prix {
+        font-size: 14px;
+        color: #A18A68;
+        margin-bottom: 20px;
+    }
+.body2{
+    width: 1150px;
+    height: 1425px;
+    border-radius: 8px;
+    margin-left: 70px;
+}
+.body2 .about{
+width: 1127.75px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.body2 .about .titre{
+    font-size: 33px;
+}
+.body2 .about .phrase1{
+    font-size: 20px;
+}
+.phrase2{
+    width: 1146.58px;
+    height: 111px;
+    font-size: 16px;
+
+}
+.top2{
+    width: 220.76px;
+    font-size: 26px;
+
+}
+.image2{
+    max-width: 100%;
+}
+.phrase3{
+    width: 1146.58px;
+    height: 54px;
+    font-size: 16px;
+}
+.phrase4{
+    width: 1120.91px;
+    height: 82px;
+    font-size: 14px;
+}
+.top3{
+    width: 400.45px;
+    font-size: 26px;
+}
+.phrase5{
+    width: 1146.58px;
+    height: 106px;
+}
+
+
+    
+
