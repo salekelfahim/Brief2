@@ -1,11 +1,13 @@
 *{
-    margin-left: 15px;
+    margin-left: 25px;
+    font-family: "DM Sans";
 }
 .header{
-    width: 1248px;
+    width: 1300px;
     height: 42px;
     display: flex;
     justify-content: space-between;
+    margin-left: 50px;
     
     }
 .header .menu{
@@ -14,8 +16,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    text-decoration: none;
     }
+.link{
+    text-decoration: none;
+    color: black;
+}
 .body1{
     height: 1822px;
 }
@@ -35,7 +40,7 @@
     height: 300px;
     position: absolute;
     top: 200px;
-    left: 100px;
+    left: 150px;
 }
 .banner .subimage .gold{
     color: aliceblue;
@@ -47,12 +52,15 @@
     font-size: 26px;
     font-family: 'DM Sans';
 }.banner .subimage .view{
+    border: aliceblue solid 2px;
+    color:  aliceblue;
     display: flex;
-    width: 193px;
-    height: 53px;
+    padding: 10px 10px;
     border-radius: 6px;
+    width: 100px;
 }
 .card-top {
+    width: 1248px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,7 +69,6 @@
 font-size: 33px;
 }
 .card-top .all{
-    margin-right: 50px;
     color: #A18A68;
     font-size: 20px;
 
@@ -69,13 +76,13 @@ font-size: 33px;
     
 .cards {
         height: 820px;
+        width: 1240px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-right: 110px;
+        margin-left: -5px;
     }
     
-    /* Styles for the products */
 .product {
         background-color: #fff;
         border-radius: 4px;
@@ -100,7 +107,7 @@ font-size: 33px;
     }
 .body2{
     width: 1150px;
-    height: 1425px;
+    height: 1600px;
     border-radius: 8px;
     margin-left: 70px;
 }
@@ -147,6 +154,45 @@ align-items: center;
 .phrase5{
     width: 1146.58px;
     height: 106px;
+}
+.footer{
+    width: 1248px;
+    height: 159px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.contact{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #707070;
+}
+.center-foot{
+    display: flex;
+    justify-content: space-between;
+}
+.put-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.put{
+    width: 396px;
+    display: flex;
+    justify-content: space-between;
+}
+.mail{
+    border:#fff;
+    width: 243px;
+    font-size: 16px;
+    margin: 0%;
+}
+.icons{
+    width: 170px;
+    height: 19px;
+    align-self: end;
 }
 
 
