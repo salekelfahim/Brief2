@@ -69,7 +69,7 @@
 .card-top .shop{
 font-size: 33px;
 }
-.card-top .all{
+.card-top .all0{
     color: #A18A68;
     font-size: 20px;
 
@@ -374,6 +374,56 @@ align-items: center;
     width: 200px;
     color: #fff;
     padding: 10px;
+}
+.all5{
+    height: 1200px;
+    width: 1248px;
+}
+.big-box{
+    height: 510px;
+    width: 1220px;
+    background-color: #D9D9D9;
+    margin-left: 80px;
+    display: flex;
+}
+.box11{
+    width: 65%;
+    height: 510px;
+}
+
+
+.cardinfo{
+    font-size: 32px;
+    margin-bottom: 80px;
+}
+.cvv{
+    width: 520px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+}
+.underl{
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    margin-left: -22px;
+}
+.info{
+    background-color: #D9D9D9;
+    border:none;
+    width: 243px;
+    font-size: 16px;
+    margin: 0%;
+}
+.confirm{
+    background-color: #A18A68;
+    width: 200px;
+    color: #fff;
+    padding: 10px;
+    margin-top: 150px;
+    margin-left: -40px;
 }
 
 
