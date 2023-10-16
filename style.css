@@ -425,7 +425,33 @@ align-items: center;
     margin-top: 150px;
     margin-left: -40px;
 }
-
+.touchpic{
+    margin: 0px;
+    text-decoration: none;
+}
+.lgpanier{
+    margin: 0px;
+    color: #333;
+}
+.livbox{
+    height: 320px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    background-color: #EFEAEA;
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+.trackid{
+    background-color: #d2d2d2;
+    height: 75px;
+    width: 100%;
+    margin: 0%;
+    font-size: 24px;
+}
+.livstatus{
+    font-size: 28px;
+}
 
 
 
