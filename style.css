@@ -1,10 +1,9 @@
 *{
-    margin-left: 25px;
+    margin: 1.5%;
     font-family: "DM Sans";
-    margin-top: 10px;
 }
 .header{
-    width: 1300px;
+    width: 93%;
     height: 42px;
     display: flex;
     justify-content: space-between;
@@ -25,23 +24,26 @@
 .body1{
     height: 1822px;
 }
+.banner{
+    width: 96%;
+    height: 35%;
+}
 .banner .banner-img{
-    width: 1248px;
-    height: 646px;
+    width: 100%;
+    max-width: 1248px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     }
 .banner .slide{
-    width: 107.43px;
-    height: 16px;
-    position: absolute;
-    left: 650px;
-    top: 650px;
+    width: 8.5%;
+    height: 3%;
+    align-self: flex-end;
 }
 .banner .subimage{
     width: 395px;
-    height: 300px;
-    position: absolute;
-    top: 280px;
-    left: 150px;
+    height: 150px;
 }
 .banner .subimage .gold{
     color: aliceblue;
@@ -53,15 +55,15 @@
     font-size: 26px;
     font-family: 'DM Sans';
 }.banner .subimage .view{
-    border: aliceblue solid 2px;
-    color:  aliceblue;
+    border: #FFFFFF solid 2px;
+    color: #FFFFFF;
     display: flex;
     padding: 10px 10px;
     border-radius: 6px;
     width: 100px;
 }
 .card-top {
-    width: 1248px;
+    width: 96%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,8 +78,8 @@ font-size: 33px;
 }
     
 .cards {
-        height: 820px;
-        width: 1240px;
+        height: 45%;
+        width: 93%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
