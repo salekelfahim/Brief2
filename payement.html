@@ -23,6 +23,11 @@
             <i class="fa-regular fa-user"></i>
 
         </nav>
+        <button class="burgermenu">
+            <div class="bmenu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </button>
     </header>
     <main class="all5">
         <br>
@@ -34,11 +39,11 @@
                 <p class="cardinfo">● Card information</p>
                 <input class="info" placeholder="Enter Name on the Card">
                 <hr style="margin-bottom: 50px; margin-left: 0;" width="510px">
-                <input class="info" placeholder="Card Number">
+                <input class="info" placeholder="Card Number" pattern="[0-9]{14}">
                 <hr style="margin-bottom: 50px; margin-left: 0;" width="510px">
                 <div class="cvv">
-                <input class="info" placeholder="Expiration">
-                <input class="info" placeholder="CVV Code">
+                <input class="info" placeholder="Expiration (MM/YY)" pattern="[0-9]{2}/[0-9]{2}">
+                <input class="info" placeholder="CVV Code" pattern="[0-9]{3}">
             </div>
             <div class="underl">
                 <hr width="267px">
@@ -77,3 +82,5 @@
     </div>
     </div>
     </footer>
+    <!-- <script src="index.js"></script> -->
+</body>

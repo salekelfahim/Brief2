@@ -23,6 +23,11 @@
             <i class="fa-regular fa-user"></i>
 
         </nav>
+        <button class="burgermenu">
+            <div class="bmenu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </button>
     </header>
     <main class="all1">
         <br>
@@ -30,32 +35,37 @@
         <p class="panier">Panier</p>
         <div class="boxes">
             <div class="box1">
-                <div class="ligne1">
+                <div class="ligne1" id="10">
                 <div class="tp">
                     <p class="title">Plaine Necklace</p>
                     <p class="price">$ 19,00</p>
                 </div>
                 <div class="remove">
                     <div class="qbox">
-                        <p>3</p>
+                        <button class="btn" id="1"><i class="fa-solid fa-plus" style="color: #000000;"></i></button>
+                        <p id="2">3</p>
+                        <!-- <input disabled type="button" value="3"> -->
+                        <button class="btn" id="3"><i class="fa-solid fa-minus" style="color: #000000;"></i></button>
                     </div>
-                    <p class="ajouter">Remove</p>
+                    <p class="remov" id="11">Remove</p>
                 </div>
             </div>
-            <hr style="margin-top: 30px; margin-left: 70px;" width="550px">
-            <div class="ligne1">
+            <hr id="111" style="margin-top: 30px; margin-left: 5%;" width="550px">
+            <div class="ligne1" id="20">
                 <div class="tp">
                     <p class="title">Lira Earrings</p>
                     <p class="price">$ 20,00</p>
                 </div>
                 <div class="remove">
                     <div class="qbox">
-                        <p>1</p>
+                        <button class="btn" id="4"><i class="fa-solid fa-plus" style="color: #000000;"></i></button>
+                        <p id="5">1</p>
+                        <button class="btn" id="6"><i class="fa-solid fa-minus" style="color: #000000;"></i></button>
                     </div>
-                    <p class="ajouter">Remove</p>
+                    <p class="remov" id="22">Remove</p>
                 </div>
             </div>
-            <hr style="margin-top: 30px; margin-left: 70px;" width="550px">
+            <hr id="222" style="margin-top: 30px; margin-left: 5%;" width="550px">
             <div class="addmore">
                 <p>Add More</p>
             </div>
@@ -65,7 +75,7 @@
                 <p class="title">  Total</p>
                 <div class="ligne3">
                     <p>Total products</p>
-                    <p>4</p>
+                    <p id="7">4</p>
                 </div>
                 <div class="ligne3">
                     <p>Shipping Status</p>
@@ -74,7 +84,7 @@
                 <hr style="margin-top: 30px; margin-bottom: -20px;" width="550px">
                 <div class="ligne3">
                     <p>Total</p>
-                    <p class="price">$ 77,00</p>
+                    <p class="price" id="8">77.00 $</p>
                 </div>
                 <a href="payement.html" class="touchpic"><div class="check">
                     <p>Proceed to checkout</p>
@@ -107,6 +117,6 @@
     </div>
     </div>
     </footer>
-    
+    <script src="index.js"></script>
 </body>
 </html>
