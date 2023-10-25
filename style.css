@@ -191,6 +191,7 @@ align-items: center;
     height: 19px;
     align-self: end;
 }
+/*------Description Page------*/
 .all{
     width: 1248px;
 }
@@ -204,18 +205,18 @@ align-items: center;
     width: 50%;
 }
 .big-image{
-    height: 570px;
-    width: 630px;
+    height: 70%;
+    width: 100%;
 }
 .lil-imgs{
     display: flex;
     justify-content: space-between;
-    width: 655px;
-    margin: 0;
+    width: 100%;
+    margin-left: 2%;
 }
 .lil{
-    height: 160px;
-    width: 181px;
+    height: auto;
+    width: 30%;
 }
 .details{
     width: 50%;
@@ -254,16 +255,17 @@ align-items: center;
 }
 .quantite{
     height: 60px;
-    width: 300px;;
+    width: 150px;
     background-color: #EFEAEA;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
 }
 .btn{
     padding: 0;
     background: none;
+    cursor: pointer;
 }
 .achats{
     height: 74px;
@@ -298,6 +300,7 @@ align-items: center;
     font-size: 20px;
     color: #676767;
 }
+/*------Panier Page-------*/
 .panier{
     height: 55px;
     width: 135px;
@@ -310,6 +313,7 @@ align-items: center;
     display: flex;
     flex-wrap: wrap;
     margin: 3%;
+    gap: 5%;
 }
 .box2{
     background-color: #EFEAEA;
@@ -331,12 +335,20 @@ align-items: center;
     justify-content: flex-end;
     align-self: center;
 }
+.remov{
+    color: #A18A68;
+    padding: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
 .qbox{
     background-color: #D9D9D9;
     width: 50px;
     height: 50px;
     font-size: 32px;
     padding: 5px;
+    display: flex;
+    flex-direction: row;
 }
 .addmore{
     margin-left: 240px;
@@ -362,6 +374,12 @@ align-items: center;
     color: #fff;
     padding: 10px;
 }
+.check1{
+    background-color: #A18A68;
+    color: #fff;
+    padding: 10px;
+}
+/*------Paiment Page-------*/
 .all5{
     height: 1200px;
     width: 1248px;
@@ -415,6 +433,13 @@ align-items: center;
     margin-top: 150px;
     margin-left: -40px;
 }
+.confirmbtn{
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 30px;
+}
 .touchpic{
     margin: 0px;
     text-decoration: none;
@@ -423,6 +448,7 @@ align-items: center;
     margin: 0px;
     color: #333;
 }
+/*------Laivrison Page-------*/
 .livbox{
     height: 320px;
     width: 900px;
@@ -445,6 +471,29 @@ align-items: center;
 .burgermenu{
     display: none;
 }
+.bmenu{
+    display: none;
+}
+.bmenu1{
+    display: none;
+}
+.bmenu2{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 90%;
+    background-color: #D9D9D9;
+    margin: 6%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#bm{
+    cursor: pointer;
+}
+#xmark{
+    align-self: flex-end;
+    cursor: pointer;
+}
 .mobbanner{
     display: none;
     width: 380px;
@@ -461,9 +510,13 @@ align-items: center;
 .burgermenu{
     display: contents;
 }
+.bmenu{
+    display: contents;
+}
 .mobbanner{
     display: contents;
 }
+
 .icons{
     align-self: flex-start;
 }
